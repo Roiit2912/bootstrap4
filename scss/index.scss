@@ -1,0 +1,68 @@
+@import 'custom';
+@import 'variablecontainer';
+@import "~bootswatch/dist/darkly/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/darkly/bootswatch";
+
+
+
+
+
+
+
+@mixin setting($property) {
+  padding: $property;
+  font-size: $property;
+  height: $property;
+}
+
+
+
+  
+
+  .footer{
+
+  	background-color: grey;
+
+  	.social{
+    display: flex;
+    flex-direction: row;
+    //justify-content: space-around;
+     font-family: 'Galada';font-size: 22px;
+
+
+     .fa { @include setting(30px); }
+
+
+.fa {
+  
+  width: $fw;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa:hover {
+    opacity: $op;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: $clr;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: $clr;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: $clr;
+  }
+
+  }
+
+     
+  }
