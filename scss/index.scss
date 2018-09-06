@@ -16,22 +16,24 @@
   height: $property;
 }
 
-
+html, body{
+	overflow-x: hidden;
+}
 
   
 
   .footer{
 
-  	background-color: grey;
+	background-color: grey;
 
-  	.social{
-    display: flex;
-    flex-direction: row;
-    //justify-content: space-around;
-     font-family: 'Galada';font-size: 22px;
+	.social{
+	display: flex;
+	flex-direction: row;
+	//justify-content: space-around;
+	 font-family: 'Galada';font-size: 22px;
 
 
-     .fa { @include setting(30px); }
+	 .fa { @include setting(30px); }
 
 
 .fa {
@@ -44,7 +46,7 @@
 }
 
 .fa:hover {
-    opacity: $op;
+	opacity: $op;
 }
 
 .fa-facebook {
@@ -64,5 +66,5 @@
 
   }
 
-     
+	 
   }
