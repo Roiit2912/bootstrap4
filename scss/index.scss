@@ -18,22 +18,24 @@
 
 html, body{
 	overflow-x: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
   
 
   .footer{
 
-	background-color: grey;
+	background-color: black;
 
 	.social{
 	display: flex;
 	flex-direction: row;
 	//justify-content: space-around;
-	 font-family: 'Galada';font-size: 22px;
+	 font-family: 'Galada';font-size: 35px;
 
 
-	 .fa { @include setting(30px); }
+	 .fa { @include setting(25px); }
 
 
 .fa {
