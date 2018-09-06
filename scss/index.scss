@@ -18,15 +18,13 @@
 
 html, body{
 	overflow-x: hidden;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
   
 
   .footer{
 
-	background-color: black;
+	background-color: grey;
 
 	.social{
 	display: flex;
@@ -35,7 +33,7 @@ html, body{
 	 font-family: 'Galada';font-size: 22px;
 
 
-	 .fa { @include setting(25px); }
+	 .fa { @include setting(30px); }
 
 
 .fa {
