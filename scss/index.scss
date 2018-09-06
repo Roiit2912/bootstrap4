@@ -11,22 +11,27 @@
 
 
 @mixin setting($property) {
-  padding: $property;
-  font-size: $property;
-  height: $property;
+	padding: $property;
+	font-size: $property;
+	height: $property;
 }
 
 html, body{
 	overflow-x: hidden;
-  margin-left: 10px;
-  margin-right: 10px;
+	
 }
 
-  
+.fixer{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+	
 
-  .footer{
+	.footer{
 
 	background-color: black;
+	padding-left:10px;
+	padding-right:10px;
 
 	.social{
 	display: flex;
@@ -39,11 +44,11 @@ html, body{
 
 
 .fa {
-  
-  width: $fw;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+	
+	width: $fw;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
 
 }
 
@@ -52,21 +57,21 @@ html, body{
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: $clr;
+	background: #3B5998;
+	color: $clr;
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: $clr;
+	background: #55ACEE;
+	color: $clr;
 }
 
 .fa-linkedin {
-  background: #007bb5;
-  color: $clr;
-  }
+	background: #007bb5;
+	color: $clr;
+	}
 
-  }
+	}
 
 	 
-  }
+	}
